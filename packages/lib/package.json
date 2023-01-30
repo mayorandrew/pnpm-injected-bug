@@ -1,0 +1,15 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist.js",
+  "scripts": {
+    "build": "cp index.js dist.js"
+  },
+  "files": [
+    "dist.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

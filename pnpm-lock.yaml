@@ -1,0 +1,26 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/app:
+    specifiers:
+      lib: workspace:^
+    dependencies:
+      lib: file:packages/lib
+    dependenciesMeta:
+      lib:
+        injected: 'true'
+
+  packages/lib:
+    specifiers: {}
+
+packages:
+
+  file:packages/lib:
+    resolution: {directory: packages/lib, type: directory}
+    name: lib
+    version: 1.0.0
+    dev: false
