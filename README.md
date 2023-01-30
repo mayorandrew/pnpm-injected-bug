@@ -2,6 +2,8 @@
 
 This repository is a minimal reproduction of an issue with "injected" dependencies in PNPM 7.26.2.
 
+https://github.com/pnpm/pnpm/issues/6002
+
 It contains a `lib` and `app` which uses `lib` as a dependency.
 
 To demonstrate the issue, perform the following steps on a freshly checked our repository:
